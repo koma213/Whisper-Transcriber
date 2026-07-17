@@ -4,6 +4,8 @@ A desktop transcription tool for Windows built on faster-whisper and PySide6. Dr
 
 **Current version:** 1.01
 
+**Runs entirely on your machine — no cloud APIs, no uploads.** Your audio itself never leaves your computer. The only network activity is one-time model downloads from HuggingFace: each Whisper model downloads its weights the first time you use it *(cached locally afterward)*, and enabling speaker diarization downloads its own model the same way.
+
 ## Features
 
 - Batch transcription of video and audio files (mp4, mkv, mov, avi, webm, mp3, wav, m4a, flac, and more)
